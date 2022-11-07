@@ -548,7 +548,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: rgb(8, 108, 239);
   height: 3px;
   width: 25px;
   margin-top: 4px;
