@@ -572,7 +572,7 @@ a:hover {
   top: 10px;
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
