@@ -1314,6 +1314,7 @@ footer .credits a {
       width: 100px;
       height: 100px;
   }
+
 }
 
 /* small media query  */
@@ -1374,3 +1375,10 @@ footer .credits a {
   font-weight: bolder;
 }
 
+.git-stats{
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+}
