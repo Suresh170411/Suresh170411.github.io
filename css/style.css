@@ -1273,11 +1273,14 @@ footer .credits a {
 #tech-div {
   width: 90%;
   display: grid;
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: auto;
   column-gap: 50px;
   row-gap: 90px;
   margin: auto; 
+  padding: 20px;
 }
 
 .tech-stack {
@@ -1323,8 +1326,7 @@ footer .credits a {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: auto;
-  column-gap: 50px;
-  column-gap: 5px;
+  column-gap: 10px;
   row-gap: 30px;
   }
   .tech-stack{
