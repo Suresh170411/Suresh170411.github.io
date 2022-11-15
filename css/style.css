@@ -1390,6 +1390,9 @@ footer .credits a {
     height: 300px;
     margin-bottom: -120px;
   }
+  #coding_com{
+    margin-top: 22px;
+  }
 }
 
 @media all and (min-width: 100px) and (max-width: 400px) {
