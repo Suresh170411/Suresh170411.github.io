@@ -1429,3 +1429,10 @@ footer .credits a {
     height: 198px;
   }
 }
+#resume_button{
+  font-weight: bold;
+}
+#resume_button:hover{
+  color: white;
+  font-weight: bold;
+}
