@@ -548,7 +548,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: rgb(8, 108, 239);
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -1273,11 +1273,14 @@ footer .credits a {
 #tech-div {
   width: 90%;
   display: grid;
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: auto;
   column-gap: 50px;
   row-gap: 90px;
   margin: auto; 
+  padding: 20px;
 }
 
 .tech-stack {
@@ -1314,6 +1317,7 @@ footer .credits a {
       width: 100px;
       height: 100px;
   }
+
 }
 
 /* small media query  */
@@ -1322,8 +1326,7 @@ footer .credits a {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: auto;
-  column-gap: 50px;
-  column-gap: 5px;
+  column-gap: 10px;
   row-gap: 30px;
   }
   .tech-stack{
@@ -1374,3 +1377,67 @@ footer .credits a {
   font-weight: bolder;
 }
 
+.git-stats{
+  display: block;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+@media all and (min-width: 400px) and (max-width: 768px) {
+  
+  .git-stats{
+    width: 300px;
+    height: 300px;
+    margin-bottom: -120px;
+  }
+  #coding_com{
+    margin-top: 22px;
+  }
+}
+
+@media all and (min-width: 100px) and (max-width: 400px) {
+  
+  .git-stats{
+    width: 200px;
+    height: 150px;
+    margin-bottom: -40px;
+  }
+}
+
+@media all and (min-width: 769px) {
+  
+  #git_container{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .git_container {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 200px;
+  }
+  .git-stats{
+    width: 100%;
+    height: 198px;
+  }
+}
+#resume_button{
+  font-weight: bold;
+}
+#resume_button:hover{
+  color: white;
+  font-weight: bold;
+}
+
+
+.proj_desc{
+  text-align: center;
+}
